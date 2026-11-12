@@ -1,0 +1,30 @@
+{
+  "homepage": "https://github.com/azhar2022bacha-stack/My-vite-react-app-project-.git",
+  "name": "azhar-portfolio",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+ 
+"scripts": {
+  "dev": "vite",
+  "lint": "eslint .",
+  "build": "vite build",
+  "preview": "vite preview",
+  "deploy": "gh-pages -d dist"
+},
+
+  "dependencies": {
+    "@vitejs/plugin-react": "latest",
+    "gh-pages": "^6.3.0",
+    "react": "latest",
+    "react-dom": "latest",
+    "vite": "latest"
+  },
+  "devDependencies": {
+    "@eslint/js": "latest",
+    "eslint": "latest",
+    "eslint-plugin-react-hooks": "latest",
+    "eslint-plugin-react-refresh": "latest",
+    "globals": "latest"
+  }
+}
